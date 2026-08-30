@@ -1,0 +1,195 @@
+/* ---------- About hero / intro ---------- */
+.ab-hero{ padding:150px 0 40px; }
+.ab-hero h1{
+  font-size:clamp(34px,5vw,54px);
+  max-width:720px;
+}
+.ab-intro{
+  padding:40px 0 100px;
+}
+.ab-intro-grid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:60px;
+  align-items:start;
+}
+.ab-portrait{
+  position:relative;
+  border-radius:22px;
+  padding:3px;
+  background:var(--grad-signal);
+  position:sticky;
+  top:120px;
+}
+.ab-portrait-inner{
+  border-radius:19px;
+  overflow:hidden;
+  background:var(--bg-panel);
+  aspect-ratio:4/5;
+}
+.ab-portrait-inner img{ width:100%; height:100%; object-fit:cover; }
+.ab-story p{
+  font-size:17px;
+  color:var(--text-muted);
+  margin:0 0 24px;
+  line-height:1.75;
+}
+.ab-story p:first-child{
+  font-size:20px;
+  color:var(--text);
+  font-family:var(--font-display);
+  font-weight:500;
+  line-height:1.5;
+}
+.ab-story .highlight{
+  color:var(--cyan);
+  font-weight:600;
+}
+.ab-mission{
+  margin-top:36px;
+  padding:28px 30px;
+  border-left:2px solid var(--cyan);
+  background:var(--bg-panel);
+  border-radius:0 14px 14px 0;
+}
+.ab-mission span{
+  font-family:var(--font-mono);
+  font-size:11.5px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--cyan);
+  display:block;
+  margin-bottom:10px;
+}
+.ab-mission p{
+  margin:0;
+  color:var(--text);
+  font-size:16.5px;
+  line-height:1.7;
+}
+
+@media (max-width:900px){
+  .ab-intro-grid{ grid-template-columns:1fr; }
+  .ab-portrait{ position:static; max-width:320px; margin:0 auto; }
+}
+
+/* ---------- Timeline ---------- */
+.timeline{
+  padding:100px 0;
+  background:var(--bg-panel);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.tl-list{
+  position:relative;
+  margin-top:60px;
+  padding-left:2px;
+}
+.tl-line{
+  position:absolute;
+  left:19px;
+  top:0;
+  bottom:0;
+  width:2px;
+  background:var(--line);
+}
+.tl-line-fill{
+  position:absolute;
+  left:19px;
+  top:0;
+  width:2px;
+  height:0%;
+  background:var(--grad-signal);
+  transition:height 1.6s var(--ease);
+}
+.tl-item{
+  position:relative;
+  padding:0 0 56px 64px;
+}
+.tl-item:last-child{ padding-bottom:0; }
+.tl-dot{
+  position:absolute;
+  left:10px; top:2px;
+  width:22px; height:22px;
+  border-radius:50%;
+  background:var(--bg-panel);
+  border:2px solid var(--line);
+  display:flex; align-items:center; justify-content:center;
+  transition:border-color .6s var(--ease), background .6s var(--ease), box-shadow .6s var(--ease);
+  z-index:1;
+}
+.tl-dot::after{
+  content:'';
+  width:8px; height:8px;
+  border-radius:50%;
+  background:var(--text-dim);
+  transition:background .6s var(--ease);
+}
+.tl-item.is-visible .tl-dot{
+  border-color:var(--cyan);
+  box-shadow:0 0 0 5px var(--cyan-soft);
+}
+.tl-item.is-visible .tl-dot::after{ background:var(--cyan); }
+.tl-year{
+  font-family:var(--font-mono);
+  font-size:12px;
+  color:var(--cyan);
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  display:block;
+  margin-bottom:8px;
+}
+.tl-item h3{ font-size:19px; margin-bottom:6px; }
+.tl-item p{ color:var(--text-muted); font-size:14.5px; margin:0; max-width:520px; }
+
+/* ---------- Skills ---------- */
+.skills{ padding:110px 0; }
+.skills-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:44px 60px;
+  margin-top:50px;
+}
+.skill-item{ }
+.skill-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  margin-bottom:12px;
+}
+.skill-head h4{
+  font-family:var(--font-display);
+  font-weight:600;
+  font-size:16px;
+  margin:0;
+}
+.skill-pct{
+  font-family:var(--font-mono);
+  font-size:13px;
+  color:var(--cyan);
+}
+.skill-track{
+  height:8px;
+  border-radius:999px;
+  background:var(--bg-panel);
+  border:1px solid var(--line);
+  overflow:hidden;
+}
+.skill-fill{
+  height:100%;
+  width:0%;
+  border-radius:999px;
+  background:var(--grad-signal);
+  transition:width 1.6s var(--ease);
+  position:relative;
+}
+.skill-fill::after{
+  content:'';
+  position:absolute; inset:0;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent);
+  opacity:0;
+}
+
+@media (max-width:760px){
+  .skills-grid{ grid-template-columns:1fr; }
+}
