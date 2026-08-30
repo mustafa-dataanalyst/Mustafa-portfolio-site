@@ -12,7 +12,7 @@
   const EVENT_NAME = 'mz-content-updated';
 
   const DEFAULT_CONTENT = {
-    theme: 'midnight',
+    theme: 'graphite',
 
     social: {
       email: 'mustafa.zafar.jp@gmail.com',
