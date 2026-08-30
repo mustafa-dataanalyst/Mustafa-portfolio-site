@@ -16,8 +16,9 @@
 
     social: {
       email: 'mustafa.zafar.jp@gmail.com',
-      linkedin: 'https://www.linkedin.com/in//mustafa-gull',
-      github: 'https://github.com/mustafa-dataanalyst'
+      linkedin: 'https://www.linkedin.com/in/mustafa-gull',
+      github: 'https://github.com/mustafa-dataanalyst',
+      instagram: 'https://instagram.com/gullby6'
     },
 
     text: {
