@@ -15,9 +15,9 @@
     theme: 'midnight',
 
     social: {
-      email: 'hello@mustafazafar.com',
-      linkedin: '#',
-      github: '#'
+      email: 'mustafa.zafar.jp@gmail.com',
+      linkedin: 'https://www.linkedin.com/in//mustafa-gull',
+      github: 'https://github.com/mustafa-dataanalyst'
     },
 
     text: {
@@ -28,22 +28,22 @@
         heroTagline: 'Turning raw data into decisions that matter.',
         heroCtaPrimary: 'View My Work',
         heroCtaSecondary: 'Get In Touch',
-        statProjects: '4',
-        statProblems: '15',
+        statProjects: '5',
+        statProblems: '90',
         statTools: '10',
         ctaHeading: "Got data? Let's find what it's telling you.",
-        ctaSubtext: "Whether it's a dashboard, a reporting system, or a one-off analysis — I'm happy to talk through it."
+        ctaSubtext: "Whether it's a dashboard, a reporting system, or a one-off analysis I'm happy to talk through it."
       },
       about: {
         heroHeading: 'From spotting patterns on the sales floor to building the dashboards that explain them.',
-        story1: "I started learning data analytics as a self-taught journey — working through SQL fundamentals, Python, and Power BI while building a career across customer service, sales, and CRM operations.",
+        story1: "I started learning data analytics as a self-taught journey working through SQL fundamentals, Python, and Power BI while building a career across customer service, sales, and CRM operations.",
         story2: "Over time I realized that the patterns I was already spotting in customer behavior and sales performance were exactly what data analysis formalizes. So I turned it into a focused career path, one query and one dashboard at a time.",
-        story3: "What makes me different is that I don't just build dashboards — I connect business operations experience with technical analysis, so the insights I deliver are grounded in how the business actually runs, not just abstract numbers.",
-        missionText: 'To help businesses turn raw, messy data into clear decisions — using the same analytical thinking that comes from having worked hands-on in CRM, sales, and customer operations.'
+        story3: "What makes me different is that I don't just build dashboards I connect business operations experience with technical analysis, so the insights I deliver are grounded in how the business actually runs, not just abstract numbers.",
+        missionText: 'To help businesses turn raw, messy data into clear decisions using the same analytical thinking that comes from having worked hands-on in CRM, sales, and customer operations.'
       },
       services: {
         heroHeading: 'Practical data work, priced clearly.',
-        heroSubtext: "From a single SQL deep-dive to ongoing CRM support — here's how I can help, and what it starts at."
+        heroSubtext: "From a single SQL deep-dive to ongoing CRM support here's how I can help, and what it starts at."
       },
       portfolio: {
         heroHeading: 'A closer look at how I turn data into decisions.',
@@ -51,7 +51,7 @@
       },
       awards: {
         heroHeading: 'Milestones that mark real, verifiable progress.',
-        heroSubtext: 'A few markers along the way — not just credentials, but proof of hands-on, real-world problem solving.'
+        heroSubtext: 'A few markers along the way not just credentials, but proof of hands-on, real-world problem solving.'
       },
       contact: {
         heroHeading: "Let's talk about your data.",
@@ -60,7 +60,7 @@
     },
 
     images: {
-      headshot: 'assets/img/placeholder-headshot.svg'
+      headshot: 'assets/img/profile.jpg'
     },
 
     services: [
@@ -69,7 +69,7 @@
         icon: 'chart',
         title: 'Data Analysis & SQL Reporting',
         desc: 'Full data cleaning, exploratory analysis, and SQL-based business problem solving using Python and PostgreSQL.',
-        price: '149',
+        price: '119',
         per: '/ project',
         tags: ['Python', 'PostgreSQL', 'SQL']
       },
@@ -78,7 +78,7 @@
         icon: 'dashboard',
         title: 'Power BI Dashboard Development',
         desc: 'Interactive dashboards with DAX measures, KPI tracking, and dynamic filtering built for business reporting.',
-        price: '199',
+        price: '149',
         per: '/ dashboard',
         tags: ['Power BI', 'DAX', 'KPI Tracking']
       },
@@ -96,7 +96,7 @@
         icon: 'crm',
         title: 'CRM & Sales Operations Support',
         desc: 'Complete CRM cleanup, lead tracking, sales pipeline reporting, and workflow automation, on a monthly basis.',
-        price: '399',
+        price: '199',
         per: '/ month',
         tags: ['CRM', 'Pipeline Reporting', 'Automation']
       }
@@ -106,16 +106,16 @@
       {
         id: 'aw-1',
         icon: 'medal',
-        year: '2023',
+        year: '2026',
         context: 'Forage · Deloitte Australia',
         title: 'Deloitte Data Analytics Virtual Internship',
         desc: "Completed via Forage, this program recognized hands-on experience in data cleaning, analysis, and business problem solving using Deloitte's industry-standard methodology.",
-        why: "It's proof that my analytical process holds up to a formal, industry-recognized standard — not just self-taught intuition."
+        why: "It's proof that my analytical process holds up to a formal, industry-recognized standard not just self-taught intuition."
       },
       {
         id: 'aw-2',
         icon: 'chart',
-        year: '2024',
+        year: '2026',
         context: 'Self-Directed Project · PostgreSQL',
         title: '15+ Business Problems Solved',
         desc: "A self-directed SQL project analyzing Netflix's global content catalog, solving medium-to-advanced real-world business questions through PostgreSQL.",
@@ -124,7 +124,7 @@
       {
         id: 'aw-3',
         icon: 'dashboard',
-        year: '2024',
+        year: '2026',
         context: 'Independent Portfolio · GitHub',
         title: 'Multi-Tool Analytics Portfolio',
         desc: 'Independently built and documented 4+ end-to-end analytics projects spanning Python, SQL, Power BI, and Excel — published and version-controlled on GitHub.',
@@ -153,7 +153,7 @@
         shortDesc: "Queried Netflix's content catalog in SQL to reveal genre and release-trend patterns.",
         fullDesc: "Queried and analyzed Netflix's global content catalog in PostgreSQL to understand genre distribution, release trends over time, and content mix by country. Wrote a full set of SQL queries to answer specific business questions about catalog strategy.",
         tools: ['PostgreSQL', 'SQL'],
-        image: 'assets/img/proj-netflix.svg'
+        image: 'assets/img/netflix.jpg'
       },
       {
         id: 'pf-3',
@@ -164,7 +164,7 @@
         shortDesc: 'Built an interactive Power BI report breaking down global data professional survey results.',
         fullDesc: 'Transformed raw survey responses from data professionals worldwide into a fully interactive Power BI report. Used Power Query for data shaping and wrote custom DAX measures to break down salary, tools, and satisfaction trends by role, region, and experience level.',
         tools: ['Power BI', 'Power Query', 'DAX'],
-        image: 'assets/img/proj-survey.svg'
+        image: 'assets/img/powerbi.jpg'
       },
       {
         id: 'pf-4',
@@ -175,7 +175,7 @@
         shortDesc: 'Created a dynamic Excel Pivot Table dashboard for slicing bike sales performance.',
         fullDesc: 'Built a fully dynamic Excel sales dashboard for a bike retailer using Pivot Tables and Pivot Charts, allowing stakeholders to slice sales performance by region, product line, and time period without touching a single formula.',
         tools: ['Excel', 'Pivot Tables'],
-        image: 'assets/img/proj-bike.svg'
+        image: 'assets/img/excel.jpg'
       }
     ]
   };
