@@ -142,7 +142,7 @@
         shortDesc: 'Segmented retail customers and surfaced purchasing trends from raw transaction data.',
         fullDesc: 'Explored transaction-level retail data to uncover purchasing patterns, customer segments, and seasonal trends. Cleaned and modeled the dataset in Python, ran exploratory analysis in PostgreSQL, and built a Power BI summary layer for stakeholders to explore the findings interactively.',
         tools: ['Python', 'PostgreSQL', 'Power BI'],
-        image: 'assets/img/proj-shopping.svg'
+        image: 'assets/img/customer.jpg'
       },
       {
         id: 'pf-2',
