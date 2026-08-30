@@ -25,7 +25,7 @@
       home: {
         heroEyebrow: 'Data Analyst',
         heroName: 'Mustafa Zafar',
-        heroRole: 'Python · SQL · Power BI',
+        heroRole: 'Python · SQL · Power BI · Excel · Pandas · Numpy . Matplotlib',
         heroTagline: 'Turning raw data into decisions that matter.',
         heroCtaPrimary: 'View My Work',
         heroCtaSecondary: 'Get In Touch',
